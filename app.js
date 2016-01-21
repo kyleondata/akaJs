@@ -49,10 +49,7 @@ var del = function () {
 
 //List
 var list = function () {
-	fs.readFile(filePath,'utf8', (err, data) => {
-		if (err) throw err;
-		console.log(data);
-	});
+	console.log(fs.readFileSync(filePath,'utf8'));
 }
 //Determine the action
 switch (action) {
