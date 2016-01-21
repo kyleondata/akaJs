@@ -1,14 +1,14 @@
 {
   "name": "akajs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Alias manager for bash",
   "main": "app.js",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/kyleondata/akaJs.git"
+    "type": "git",
+    "url": "https://github.com/kyleondata/akaJs.git"
   },
   "bin": {
-      "aka": "app.js"
+    "aka": "app.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
