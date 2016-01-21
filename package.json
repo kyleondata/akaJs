@@ -1,0 +1,18 @@
+{
+  "name": "aka-js",
+  "version": "1.0.0",
+  "description": "Alias manager for bash",
+  "main": "app.js",
+  "bin": {
+      "aka": "app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Jennings",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.5.3",
+    "yargs": "^3.32.0"
+  }
+}
