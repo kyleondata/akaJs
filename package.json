@@ -1,8 +1,12 @@
 {
-  "name": "aka-js",
+  "name": "akajs",
   "version": "1.0.0",
   "description": "Alias manager for bash",
   "main": "app.js",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/kyleondata/akaJs.git"
+  },
   "bin": {
       "aka": "app.js"
   },
